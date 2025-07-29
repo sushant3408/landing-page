@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coming-soon</title>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        margin: 170px 0 0 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100%;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .card {
+        text-align: center;
+        background-color: aliceblue;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      .logo {
+        width: 30px;
+        object-fit: contain;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+      }
+      button {
+        padding: 5px;
+        background-color: 1a1a1a;
+        color: #ccc;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        /* box-shadow: ; */
+        /* transition: background-color 0.5 ease-in-out; */
+      }
+      button:hover {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="../../images/23.jpeg" class="logo" alt="not available" />
+        <h1>coming sooon</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sed!
+        </p>
+        <form id="notify-form">
+          <input type="email" placeholder="email-here" />
+          <button type="submit">notify-me</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

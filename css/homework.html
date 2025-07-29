@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration form</title>
+    <style>
+      body {
+        background-color: darkolivegreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        width: 300px;
+        margin: 50px;
+        border: 5px solid black;
+        padding: 50px;
+      }
+      .card input {
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: blanchedalmond;
+        position: relative;
+        bottom: -40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <form>
+        <label for="Firstname">Firstname:</label>
+        <input type="text" name="Firstname" id="" />
+        <label for="lastname">lastname:</label>
+        <input type="text" name="lastname" id="lastname" />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="" />
+        <label for="mobile">mobile no:</label>
+        <input type="tel" name="mobilenumber" id="mobile" />
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="m" />
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="f" />
+        <label for="country">Country:</label>
+        <select name="country" id="">
+          <option value="india">india</option>
+          <option value="canada">canada</option>
+          <option value="usa">usa</option>
+        </select>
+        <p>languages known</p>
+        <label for="english">English</label>
+        <input type="checkbox" name="languages" id="english" value="english" />
+        <label for="telugu">telugu</label>
+        <input type="checkbox" name="languages" id="telugu" value="telugu" />
+        <button type="submit">register</button>
+      </form>
+    </div>
+  </body>
+</html>
